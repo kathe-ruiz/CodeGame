@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <java>
+        <item>
+            <itemId>1</itemId>
+            <itemQuestion>¿En qué sistema se basa el núcleo de Android?</itemQuestion>
+            <itemAnswer1>BSD Unix</itemAnswer1>
+            <itemAnswer2>Linux</itemAnswer2>
+            <itemAnswer3>Chrome</itemAnswer3>
+            <itemAnswer4>MacOSX</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>2</itemId>
+            <itemQuestion>¿Cuál de estos IDE puede utilizarse para programar Aplicaciones para Android?</itemQuestion>
+            <itemAnswer1>Sublime</itemAnswer1>
+            <itemAnswer2>Android Studio</itemAnswer2>
+            <itemAnswer3>Google Apps</itemAnswer3>
+            <itemAnswer4>IntelliJ IDEA</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>3</itemId>
+            <itemQuestion>¿Qué es Dalvik?</itemQuestion>
+            <itemAnswer1>Es la máquina virtual que ejecuta el bytecode propio de Android</itemAnswer1>
+            <itemAnswer2>Es el nombre de la futura versión de Android 5</itemAnswer2>
+            <itemAnswer3>Es la librería para gestión de base de datos en Android</itemAnswer3>
+            <itemAnswer4>Es el emulador Android que incorpora Eclipse para testear las Apps que se desarrollan en este IDE</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>4</itemId>
+            <itemQuestion>¿En qué lenguaje se programan las apps de Android?</itemQuestion>
+            <itemAnswer1>Javascript</itemAnswer1>
+            <itemAnswer2>Java</itemAnswer2>
+            <itemAnswer3>xml</itemAnswer3>
+            <itemAnswer4>C++</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>5</itemId>
+            <itemQuestion>El fichero Manifest sirve, entre otras cosas, para</itemQuestion>
+            <itemAnswer1>Declarar los permisos</itemAnswer1>
+            <itemAnswer2>Declarar la API  mínima necesaria</itemAnswer2>
+            <itemAnswer3>Declarar los componentes de una app</itemAnswer3>
+            <itemAnswer4>Todas son correctas</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+        <item>
+            <itemId>6</itemId>
+            <itemQuestion>¿Qué orden es válido en ejecución, atendiendo al ciclo de vida de una Activity?</itemQuestion>
+            <itemAnswer1>onResume, onStart, onPause</itemAnswer1>
+            <itemAnswer2>onCreate, onResume, onPause, onDestroy</itemAnswer2>
+            <itemAnswer3>onStart, onDestroy, onRestart</itemAnswer3>
+            <itemAnswer4>onCreate, onResume, onRestart, onDestroy, onStop</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>7</itemId>
+            <itemQuestion>¿Qué layout sirve para alinear por filas o columnas las vistas?</itemQuestion>
+            <itemAnswer1>RelativeLayout</itemAnswer1>
+            <itemAnswer2>ColumnLayout</itemAnswer2>
+            <itemAnswer3>LineaLayout</itemAnswer3>
+            <itemAnswer4>LinearLayout</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+        <item>
+            <itemId>8</itemId>
+            <itemQuestion>¿Cómo traduces a varios idiomas un texto de tu app?</itemQuestion>
+            <itemAnswer1>Android utiliza Google Translate automáticamente para taducir</itemAnswer1>
+            <itemAnswer2>Comprobando en Runtime el idioma y eligiendo un texto u otro</itemAnswer2>
+            <itemAnswer3>Subiendo una app para cada idioma a Google Play</itemAnswer3>
+            <itemAnswer4>Definiendo diferentes texto en la carpeta res, utilizando las etiquetas de idiomas</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+        <item>
+            <itemId>9</itemId>
+            <itemQuestion>¿Para qué sirve un Asynctask?</itemQuestion>
+            <itemAnswer1>Para mostrar el progreso de una tarea en segundo plano</itemAnswer1>
+            <itemAnswer2>Para realizar una tarea en segundo plano</itemAnswer2>
+            <itemAnswer3>Para mostrar información del resultado de una tarea de segundo plano</itemAnswer3>
+            <itemAnswer4>Todas son correctas</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+        <item>
+            <itemId>10</itemId>
+            <itemQuestion> ¿Es posible ver notificaciones en un Android Wear de nuestro teléfono?</itemQuestion>
+            <itemAnswer1>Sólo las más importantes</itemAnswer1>
+            <itemAnswer2>No</itemAnswer2>
+            <itemAnswer3>Sí, si las configuramos para qu se muestren en Android Wear</itemAnswer3>
+            <itemAnswer4>Sí, sin necesidad de programas nada adicional</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+    </java>
+</resources>

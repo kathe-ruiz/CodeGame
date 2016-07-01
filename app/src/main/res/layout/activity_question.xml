@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="katherine.codegame.Question"
+    android:orientation="vertical"
+    android:id="@+id/LayoutMainQuestion">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#E53935"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/layoutTitleTopic">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/java"
+            android:id="@+id/tvTopic"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 de 10"
+        android:id="@+id/tvNumberQuestions"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Qué es un Objeto?"
+            android:id="@+id/tvQuestion"
+            android:layout_gravity="center"
+            android:paddingRight="15dp"
+            android:paddingLeft="15dp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Textz"
+            android:id="@+id/tvAnswer1"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/answer_option"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvAnswer2"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/answer_option"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvAnswer3"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/answer_option"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/tvAnswer4"
+            android:layout_weight="1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/answer_option"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+</LinearLayout>

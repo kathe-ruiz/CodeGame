@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <javascript>
+        <item>
+            <itemId>1</itemId>
+            <itemQuestion>¿Cómo cargaríamos una librería Javascript dentro de una página web?</itemQuestion>
+            <itemAnswer1>&lt;link href="/js/milibreria.js" rel="script" type="text/javascript"/&gt;</itemAnswer1>
+            <itemAnswer2>&lt;a href="/js/milibreria.js"&gt;Libreria&lt;/a&gt;</itemAnswer2>
+            <itemAnswer3>&lt;script type="text/javascript" src="/js/milibreria.js"&gt;&lt;/script&gt;</itemAnswer3>
+            <itemAnswer4>Ninguna de las anteriores respuestas es válida</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>2</itemId>
+            <itemQuestion>¿Para el sirve el método toFixed()?</itemQuestion>
+            <itemAnswer1>Convierte una cadena en un número con tantos decimales como le indiquemos en el parámetro</itemAnswer1>
+            <itemAnswer2>Mezcla dos cadenas que se le pasan como parámetro</itemAnswer2>
+            <itemAnswer3>Nos permite sumar números que contengan decimales</itemAnswer3>
+            <itemAnswer4>Sirve para mezclar una cadena con un número. Ambos valores se le pasan como parámetro</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>3</itemId>
+            <itemQuestion>¿Qué realiza la siguiente función?
+                setInterval(calcular_datos,1000);</itemQuestion>
+            <itemAnswer1>Ejecutar la función calcular_datos cada segundo</itemAnswer1>
+            <itemAnswer2>Ejecutar la función calcular_datos una vez pero pasado un segundo</itemAnswer2>
+            <itemAnswer3>Ejecutar la función calcular_datos cada 1000 segundos</itemAnswer3>
+            <itemAnswer4>Pasa el dato 1000 a la función calcular_datos</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>4</itemId>
+            <itemQuestion>En Javascript, para darle el nombre a una variable, objeto o función, debemos tener en cuenta que:            </itemQuestion>
+            <itemAnswer1>No se pueden usar mayúsculas</itemAnswer1>
+            <itemAnswer2>Javascript no distingue entre mayúsculas y minúsculas</itemAnswer2>
+            <itemAnswer3>Javascript diferencia entre mayúsculas y minúsculas</itemAnswer3>
+            <itemAnswer4>Ninguna de las anteriores</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>5</itemId>
+            <itemQuestion>¿Cuál es la instrucción usada para devolver un valor en una función?</itemQuestion>
+            <itemAnswer1>Send</itemAnswer1>
+            <itemAnswer2>Return</itemAnswer2>
+            <itemAnswer3>Value</itemAnswer3>
+            <itemAnswer4>Ninguna</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>6</itemId>
+            <itemQuestion>Para terminar las instrucciones en Javascript se utiliza:</itemQuestion>
+            <itemAnswer1>Un punto y coma</itemAnswer1>
+            <itemAnswer2>Un punto y coma o un salto de línea</itemAnswer2>
+            <itemAnswer3>La sentencia End.</itemAnswer3>
+            <itemAnswer4>Todas las anteriores</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>7</itemId>
+            <itemQuestion>¿Cuál de estas instrucciones está correctamente escrita en Javascript?</itemQuestion>
+            <itemAnswer1>if (a==0) alert (a);</itemAnswer1>
+            <itemAnswer2>f (a=0) print a;</itemAnswer2>
+            <itemAnswer3>if (a==0) { print [a] }</itemAnswer3>
+            <itemAnswer4>if (a==0): print a;</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>8</itemId>
+            <itemQuestion>Para concatenar cadenas de caracteres en Javascript se usa el carácter:</itemQuestion>
+            <itemAnswer1>&amp; (ampersand)</itemAnswer1>
+            <itemAnswer2>+ (mas)</itemAnswer2>
+            <itemAnswer3>. (punto)</itemAnswer3>
+            <itemAnswer4>* (por) </itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>9</itemId>
+            <itemQuestion>¿Es posible hacer que se ejecute un formulario por Javascript?</itemQuestion>
+            <itemAnswer1>No, esa función sólo puede realizarse mediante código PHP, y se ha de realizar por tanto en el servidor.</itemAnswer1>
+            <itemAnswer2>Sí, de hecho los formularios se crean con código Javascript, por lo que es el propio Javascript el que los ejecuta.</itemAnswer2>
+            <itemAnswer3>Sí, por ejemplo basta con pasarle a una función Javascript el identificador del formulario, y aplicarle el comando “submit” para ejecutar ese formulario</itemAnswer3>
+            <itemAnswer4>No, esa función sólo puede realizarse mediante código HTML</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>10</itemId>
+            <itemQuestion>¿Cuáles de estas son marcas para la inserción del código Javascript en las páginas HTML?</itemQuestion>
+            <itemAnswer1>&lt; javascript_code &gt; y &lt;/javascript_code &gt;</itemAnswer1>
+            <itemAnswer2>&lt; script > y &lt; /script &gt;</itemAnswer2>
+            <itemAnswer3>&lt; ?script > y &lt; script? &gt;</itemAnswer3>
+            <itemAnswer4>&lt; javascript > y &lt; /javascript &gt;</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+    </javascript>
+</resources>

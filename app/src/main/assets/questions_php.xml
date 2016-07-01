@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <java>
+        <item>
+            <itemId>1</itemId>
+            <itemQuestion> ¿Cuáles de estas son marcas para la inserción del código PHP en las páginas HTML?</itemQuestion>
+            <itemAnswer1>&lt;? y ?&gt;</itemAnswer1>
+            <itemAnswer2>&lt; php &gt; &lt; /php &gt;</itemAnswer2>
+            <itemAnswer3>&lt;# y #&gt;</itemAnswer3>
+            <itemAnswer4>&lt; p &gt; &lt; /p &gt;</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>2</itemId>
+            <itemQuestion>¿En qué atributo de un formulario especificamos la página a la que se van a enviar los datos del mismo?</itemQuestion>
+            <itemAnswer1>name</itemAnswer1>
+            <itemAnswer2>file</itemAnswer2>
+            <itemAnswer3>action</itemAnswer3>
+            <itemAnswer4>description</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>3</itemId>
+            <itemQuestion>¿Cuál de estas instrucciones está correctamente escrita en PHP?</itemQuestion>
+            <itemAnswer1>if (a=0) print a</itemAnswer1>
+            <itemAnswer2>if (a==0) echo “hola mundo”;</itemAnswer2>
+            <itemAnswer3>if (a==0) { echo ok }</itemAnswer3>
+            <itemAnswer4>if (a==0): print a; </itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>4</itemId>
+            <itemQuestion> ¿Cuál de estas instrucciones PHP imprimirá por pantalla correctamente el mensaje “Hola Mundo” en letra negrita?</itemQuestion>
+            <itemAnswer1>print &lt; strong &gt; Hola Mundo &lt; /strong&gt;;</itemAnswer1>
+            <itemAnswer2>print (&lt; strong>Hola Mundo &lt;/strong&gt;);</itemAnswer2>
+            <itemAnswer3>print ("&lt; strong>Hola Mundo &lt; /strong&gt;");</itemAnswer3>
+            <itemAnswer4>print "&lt; strong>Hola Mundo &lt; /strong&gt;";</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>5</itemId>
+            <itemQuestion>Dos de las formas de pasar los parámetros entre páginas PHP son:</itemQuestion>
+            <itemAnswer1>Require e Include</itemAnswer1>
+            <itemAnswer2>Get y Put</itemAnswer2>
+            <itemAnswer3>Post y Get</itemAnswer3>
+            <itemAnswer4>Into e Include</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>6</itemId>
+            <itemQuestion>¿Cuál de estas instrucciones se utiliza para realizar una consulta a una base de datos MySQL?</itemQuestion>
+            <itemAnswer1>mysql_query</itemAnswer1>
+            <itemAnswer2>mysql_access</itemAnswer2>
+            <itemAnswer3>mysql_db_access</itemAnswer3>
+            <itemAnswer4>query</itemAnswer4>
+            <itemCorrect>1</itemCorrect>
+        </item>
+        <item>
+            <itemId>7</itemId>
+            <itemQuestion>Un array es...</itemQuestion>
+            <itemAnswer1>Un conjunto de caracteres alfanuméricos</itemAnswer1>
+            <itemAnswer2>Un sistema para convertir una variable de texto en un número</itemAnswer2>
+            <itemAnswer3>Un conjunto de enteros</itemAnswer3>
+            <itemAnswer4>Un conjunto de elementos</itemAnswer4>
+            <itemCorrect>4</itemCorrect>
+        </item>
+        <item>
+            <itemId>8</itemId>
+            <itemQuestion>¿Cómo se define una variable de tipo string en PHP?</itemQuestion>
+            <itemAnswer1>char str;</itemAnswer1>
+            <itemAnswer2>string str;</itemAnswer2>
+            <itemAnswer3>En PHP no se define el tipo de las variables explícitamente</itemAnswer3>
+            <itemAnswer4>Ninguna de las anteriores</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+        <item>
+            <itemId>9</itemId>
+            <itemQuestion>Tenemos el siguiente código: $a=”10”; $b=$a + 2; ¿Cuál será el valor de $b?</itemQuestion>
+            <itemAnswer1>"12"</itemAnswer1>
+            <itemAnswer2>12</itemAnswer2>
+            <itemAnswer3>"102"</itemAnswer3>
+            <itemAnswer4>Ninguno (no se puede sumar un número a una cadena)</itemAnswer4>
+            <itemCorrect>2</itemCorrect>
+        </item>
+        <item>
+            <itemId>10</itemId>
+            <itemQuestion>¿Para qué sirve el siguiente código?: if (isset($variable)){} </itemQuestion>
+            <itemAnswer1>Recorre un array de nombre $variable</itemAnswer1>
+            <itemAnswer2>Crea una variable de nombre "$variable"</itemAnswer2>
+            <itemAnswer3>Verifica si la variable "$variable" está definida y tiene un valor no nulo</itemAnswer3>
+            <itemAnswer4>Ninguna de las anteriores</itemAnswer4>
+            <itemCorrect>3</itemCorrect>
+        </item>
+    </java>
+</resources>
