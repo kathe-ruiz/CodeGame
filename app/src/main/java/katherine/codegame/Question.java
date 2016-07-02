@@ -21,8 +21,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-
 public class Question extends AppCompatActivity implements View.OnClickListener {
 
     private TextView tvAnswer1;
@@ -166,11 +164,11 @@ public class Question extends AppCompatActivity implements View.OnClickListener 
 
     }
     private void inflateIconAnswer(Boolean isCorrect){
-        //Crear inflate para contener el popup
+        //Create inflate to contain  popup
         final LayoutInflater inflater = (LayoutInflater) Question.this
                 .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        //crear el layout
-        final View layout = inflater.inflate(R.layout.answer_response,null);
+        //create  layout
+        final View layout = inflater.inflate(R.layout.answer_popup,null);
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         //popupWindow

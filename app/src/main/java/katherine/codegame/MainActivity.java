@@ -42,30 +42,9 @@ public class MainActivity extends AppCompatActivity {
         adapter.addFragment(new FragmentTwo(), tab_name_2);
         //set adapter to viewpager
         viewPager.setAdapter(adapter);
-        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
-            @Override
-            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
-            }
-
-            @Override
-            public void onPageSelected(int position) {
-                /*/
-                    refresh second fragment
-                 */
-                Fragment fragment = ((FragmentPagerAdapter) viewPager.getAdapter()).getItem(position);
-                if (position == 1 && fragment != null) {
-                    fragment.onResume();
-                }
-            }
-
-            @Override
-            public void onPageScrollStateChanged(int state) {
-
-            }
-        });
         //set tablayout with viewpager
         tabLayout.setupWithViewPager(viewPager);
+
     }
     /*
        Class  ViewPager Adapter
